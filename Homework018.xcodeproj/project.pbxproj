@@ -13,6 +13,13 @@
 		065074872769C1C90085457A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065074852769C1C90085457A /* Main.storyboard */; };
 		065074892769C1CB0085457A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065074882769C1CB0085457A /* Assets.xcassets */; };
 		0650748C2769C1CB0085457A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0650748A2769C1CB0085457A /* LaunchScreen.storyboard */; };
+		065074942769C3560085457A /* ActTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065074932769C3560085457A /* ActTableViewController.swift */; };
+		065074982769C5680085457A /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065074972769C5680085457A /* Program.swift */; };
+		0650749A2769D0CC0085457A /* ActDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065074992769D0CC0085457A /* ActDetailViewController.swift */; };
+		067C0A2D276AF81500B8F2AA /* Act.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067C0A2C276AF81500B8F2AA /* Act.swift */; };
+		06C9BF1E276B0FED00340875 /* ActViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9BF1D276B0FED00340875 /* ActViewController.swift */; };
+		06C9BF20276B181A00340875 /* ActTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9BF1F276B181A00340875 /* ActTableViewCell.swift */; };
+		06C9BF24276B2C8700340875 /* TaichunDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C9BF23276B2C8700340875 /* TaichunDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		065074882769C1CB0085457A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0650748B2769C1CB0085457A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0650748D2769C1CB0085457A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065074932769C3560085457A /* ActTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTableViewController.swift; sourceTree = "<group>"; };
+		065074972769C5680085457A /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		065074992769D0CC0085457A /* ActDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActDetailViewController.swift; sourceTree = "<group>"; };
+		067C0A2C276AF81500B8F2AA /* Act.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Act.swift; sourceTree = "<group>"; };
+		06C9BF1D276B0FED00340875 /* ActViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActViewController.swift; sourceTree = "<group>"; };
+		06C9BF1F276B181A00340875 /* ActTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTableViewCell.swift; sourceTree = "<group>"; };
+		06C9BF23276B2C8700340875 /* TaichunDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaichunDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +73,15 @@
 				0650747F2769C1C90085457A /* AppDelegate.swift */,
 				065074812769C1C90085457A /* SceneDelegate.swift */,
 				065074832769C1C90085457A /* ViewController.swift */,
+				06C9BF1F276B181A00340875 /* ActTableViewCell.swift */,
 				065074852769C1C90085457A /* Main.storyboard */,
+				06C9BF1D276B0FED00340875 /* ActViewController.swift */,
+				065074932769C3560085457A /* ActTableViewController.swift */,
 				065074882769C1CB0085457A /* Assets.xcassets */,
+				065074972769C5680085457A /* Program.swift */,
+				067C0A2C276AF81500B8F2AA /* Act.swift */,
+				06C9BF23276B2C8700340875 /* TaichunDetailViewController.swift */,
+				065074992769D0CC0085457A /* ActDetailViewController.swift */,
 				0650748A2769C1CB0085457A /* LaunchScreen.storyboard */,
 				0650748D2769C1CB0085457A /* Info.plist */,
 			);
@@ -138,9 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065074982769C5680085457A /* Program.swift in Sources */,
+				06C9BF1E276B0FED00340875 /* ActViewController.swift in Sources */,
+				067C0A2D276AF81500B8F2AA /* Act.swift in Sources */,
 				065074842769C1C90085457A /* ViewController.swift in Sources */,
 				065074802769C1C90085457A /* AppDelegate.swift in Sources */,
+				065074942769C3560085457A /* ActTableViewController.swift in Sources */,
+				0650749A2769D0CC0085457A /* ActDetailViewController.swift in Sources */,
 				065074822769C1C90085457A /* SceneDelegate.swift in Sources */,
+				06C9BF24276B2C8700340875 /* TaichunDetailViewController.swift in Sources */,
+				06C9BF20276B181A00340875 /* ActTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
